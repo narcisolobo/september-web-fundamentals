@@ -1,0 +1,58 @@
+/* 
+
+CSS - Cascading Style Sheets
+HTML governs the structure of our website
+CSS governs the style of our website
+
+CSS RULES
+Anatomy of a CSS Rule:
+1. Selector - what element would you like to style?
+2. Property - what property of that element would you like to style?
+3. Value - what value you want to change that property to
+
+*/
+
+h1 {
+  border: 3px dashed red;
+  color: purple;
+  display: inline-block;
+}
+
+/* 
+
+Selectors:
+Types of selectors -
+- Element selectors (the name of the HTML element)
+- ID selector (hashtag # followed by the name of the ID)
+- Class selector (dot . followed by the name of the class)
+
+*/
+
+#lorem {
+  font-size: x-large;
+  color: crimson;
+}
+
+.list-item-bg {
+  background-color:rebeccapurple;
+}
+
+div {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+#example-box {
+  background-color: green;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+h2 {
+  margin: 0 auto;
+  width: max-content;
+  /* outline: 1px dashed red; */
+}
