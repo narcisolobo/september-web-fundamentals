@@ -1,0 +1,25 @@
+.display {
+  background-color: burlywood;
+  width: 300px;
+  min-height: 100px;
+  display: inline-block;
+}
+
+/*
+Inline:
+Examples of inline elements by default
+anchors <a>
+formatting tags: <strong>, <em>
+images
+
+Width and height are ignored for inline elements
+
+Inline-block:
+Inline block elements allow other elements to be on the same line (side-by-side)
+Width and height are acknowledged (not ignored).
+
+Block elements:
+Block elements do not allow other elements to be on the same line.
+
+*/
+
