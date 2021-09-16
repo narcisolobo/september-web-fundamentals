@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+h2 {
+  padding: 2rem;
+}
+
+.positioned-static {
+  position: static;
+  top: 50px;
+  background-color: hotpink;
+  padding: 2em;
+}
+
+.positioned-relative {
+  position: relative;
+  /* inset: 20px; */
+  top: 50px;
+  left: 50px;
+  background-color: hotpink;
+  /* padding: 2em; */
+  width: 400px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.positioned-absolute {
+  position: absolute;
+  /* inset: 20px; */
+  top: -20px;
+  left: -20px; /* abusing position; */
+  background-color: orange;
+  /* padding: 2em; */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.positioned-fixed {
+  position: fixed;
+  background-color: lightgreen;
+  padding: 2em;
+  top: 50px;
+  left: 50px;
+  width: 500px;
+}
+
+.positioned-sticky {
+  position: sticky;
+  background-color: lightskyblue;
+  padding: 2em;
+  top: 0px;
+}
+
+.bottom-margin {
+  margin-bottom: 500em;
+}
+
+
+/* 
+
+position: static
+Position static is the default position value for every element.
+
+ALL VALUES OF THE POSITION ARE RELATIVE
+IT'S JUST A QUESTION OF WHAT THEY ARE RELATIVE TO
+
+position: relative
+The element is positioned relative to its normal position.
+
+position: absolute
+The element is positioned relative to its closest positioned ancestor.
+
+position: fixed
+The element is positioned relative to the browser window.
+
+position: sticky
+The element is positioned relative to the scroll.
+
+*/
