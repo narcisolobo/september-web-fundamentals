@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DOM Manipulation</h1>
+    <ul>
+        <li>HTML - Structure</li>
+        <li>CSS - Style</li>
+        <li>JS - Functionality</li>
+    </ul>
+    
+    <h2>HTML DOM EVENTS</h2>
+    <h3>Click Event</h3>
+    
+    <button onclick="alert('you clicked me')" class="btn">CLICK ME</button>
+    
+    <button onclick="proof()" class="btn">CLICK ME TOO</button>
+
+    <button onclick="surprise(this)" class="btn">CLICK ME FOR A SURPRISE</button>
+
+    <h1 onclick="disappear(this)">CLICK TO DISAPPEAR</h1>
+
+    <p onclick="disappear(this)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque itaque ipsum ipsam libero assumenda nobis cupiditate recusandae nam? Earum vero vel fugit eveniet explicabo laborum quidem minima doloremque dicta. Ullam?</p>
+
+    <img id="dave" onclick="disappear(this)" src="./puppy-development.jpeg" alt="Puppies!!">
+    <div>
+        <p>This puppy has been booped <span id="boops"></span> times.</p>
+        <button onclick="increaseBoop()" class="btn">Boop Puppy</button>
+    </div><br>
+
+    <div>
+        <button onclick="disappear(puppy)" class="btn">MAKE THE PUPPY GO BYE BYE</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
