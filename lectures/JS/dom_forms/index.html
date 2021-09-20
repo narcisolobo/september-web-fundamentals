@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM and Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="centered">
+        <!-- <button onclick="alert('You clicked me.')" class="btn">CLICK ME 1</button>
+        <button onclick="logger()" class="btn">CLICK ME 2</button>
+        <button onclick="changeButton(this)" class="btn">CLICK ME 3</button>
+        <button onclick="messager(result4)" class="btn">CLICK ME 4</button>
+        <button onclick="messager(result5)" class="btn">CLICK ME 5</button>
+        <button onclick="messager(result6)" class="btn">CLICK ME 6</button>
+        <div id="result4">DIV FOR BUTTON 4</div>
+        <div id="result5">DIV FOR BUTTON 5</div>
+        <div id="result6">DIV FOR BUTTON 5</div> -->
+
+        <form action="">
+            <div class="m-bottom">
+                <label for="color">Choose your favorite color:</label>
+                <select onchange="alert('You clicked ' + this.value)" name="color" id="color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="purple">Purple</option>
+                    <option value="pink">Pink</option>
+                </select>
+            </div>
+            <div class="m-bottom">
+                <label for="message">Enter message:</label>
+                <input oninput="messagePrint(this)" type="text" name="message" id="message">
+            </div>
+        </form>
+        <script src="./script.js"></script>
+    </div>
+</body>
+</html>
