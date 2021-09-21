@@ -20,3 +20,4 @@
 - You have until midnight (your local time) to complete the exam.
 - I suggest starting by 10:00 a.m. to ensure that I or your TA will be around if you need help.
 - Don't cheat! Ask if you're not sure whether something is cheating or not.
+- You guys absolutely rule. Loved having you in class! You will rock this yellow belt exam!
