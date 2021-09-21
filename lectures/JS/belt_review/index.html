@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustDessert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="space-between">
+            <h1 class="white-text">Just<span class="orange-text">Dessert</span></h1>
+            <div class="buttons">
+                <button onclick="remove(this)" class="btn orange-bg">Join</button>
+                <button class="btn blue-bg white-text">Login</button>
+            </div>
+        </header>
+        <div id="search-bar" class="space-between">
+            <form id="form">
+                <input type="text" id="search" placeholder="SEARCH">
+                <button onclick="searchText()" class="btn blue-bg white-text">GO</button>
+            </form>
+            <img src="./imgs/cake.png" alt="Cake">
+            <img src="./imgs/cookie.png" alt="Cookie">
+            <img src="./imgs/ice-cream.png" alt="Ice Cream">
+            <img src="./imgs/pie.png" alt="Pie">
+        </div>
+        <div id="content" class="flex-start">
+            <main>
+                <h2 class="align-center">Recipe of the Day</h2>
+                <img id="hero-img" src="./imgs/orange-tart.jpg" alt="Orange Tart">
+                <div class="space-between">
+                    <div class="byline">
+                        <p>Orange Tea Jelly Tart</p>
+                        <p>By: <a href="">yuripiano</a></p>
+                    </div>
+                    <div class="likes space-between">
+                        <img onclick="increaseLikes(tartLikes)" src="./imgs/heart.png" alt="heart">
+                        <span id="tart-likes"></span>
+                    </div>
+                </div>
+                <div class="centered">
+                    <a class="align-center" href="">See Full Recipe</a>
+                </div>
+            </main>
+            <aside>
+                <h5>Recommended for you:</h5>
+                <hr>
+                <div class="recommendation">
+                    <img src="./imgs/macarons.jpg" alt="Macaroons">
+                    <div class="space-between">
+                        <div class="byline">
+                            <p>Macarons</p>
+                            <p>By: <a href="">Emilie W.</a></p>
+                        </div>
+                        <div class="likes space-between">
+                            <img onclick="increaseLikes(macaroonLikes)" src="./imgs/heart.png" alt="heart">
+                            <p id="macaroon-likes"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recommendation">
+                    <img src="./imgs/creme-brulee.jpg" alt="Crème brûlée">
+                    <div class="space-between">
+                        <div class="byline">
+                            <p>Crème brûlée</p>
+                            <p>By: <a href="">Marisa G.</a></p>
+                        </div>
+                        <div class="likes space-between">
+                            <img onclick="increaseLikes(bruleeLikes)" src="./imgs/heart.png" alt="heart">
+                            <p id="brulee-likes"></p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

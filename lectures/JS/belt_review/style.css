@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 1.5em;
+}
+
+header {
+  background-color: #333333;
+  padding: .5em 1em;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap {
+  gap: 1.5em;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5em;
+}
+
+.orange-text {
+  color: #ff9900;
+}
+
+.white-text {
+  color: white;
+}
+
+.blue-bg {
+  background-color: #065394;
+}
+
+.orange-bg {
+  background-color: #ff9900;
+}
+
+.btn {
+  padding: .5em 1em;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 0 black;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5em;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin: 1.5em 0;
+}
+
+/* Search Bar Rules */
+
+#search-bar {
+  background-color: #f9cb9b;
+  padding: 2em 1em;
+  margin-bottom: 1.5em;
+}
+
+#form input {
+  height: 2em;
+  padding: .5em 1em;
+}
+
+#search-bar img {
+  border-radius: 50%;
+  background-color: white;
+  width: 100px;
+}
+
+/* Main rules */
+
+main {
+  flex: 2;
+  background-color: lightgray;
+  padding: 1.5em;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+main h2 {
+  color: #065394;
+  margin-bottom: 1em;
+}
+
+/* Aside rules */
+aside {
+  flex: 1;
+}
+
+.recommendation {
+  margin-bottom: 1.5em;
+}
+
+/* byline classes */
+.likes img {
+  width: 20px;
+  margin-right: 10px;
+}
