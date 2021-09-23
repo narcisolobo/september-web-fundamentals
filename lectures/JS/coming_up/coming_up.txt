@@ -1,0 +1,19 @@
+The end goal of every stack is to be able to build a web appliction capable of full CRUD.
+
+CRUD
+Create, Read, Update, Destroy
+
+Learning the language fundamentals
+Object Oriented Programming
+Framework
+Routes, Controllers, Templates - MVC (Model, View, Controller)
+Login and Registration
+
+Python - Flask
+Java - Spring MVC
+MERN - MongoDB, Express.js, React.js, Node.js
+C# - dotnet
+
+Do the Basic 13 in Python.
+Learn the Terminal and basic commands in your shell of choice.
+Get as familiar as possible with Git and GitHub.

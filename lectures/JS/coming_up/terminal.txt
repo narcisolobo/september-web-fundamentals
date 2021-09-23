@@ -1,0 +1,13 @@
+A terminal allows you to run a shell (zsh, GitBash, Command Prompt, PowerShell).
+
+Shell - A text-based application that allows you to interact with the files and folders on your machine.
+
+CLI - Command Line Interface
+
+pwd - Shows the current directory
+cd - change directory
+cd .. - Up one level
+ls - list files and folders
+rm - remove
+rm -r - remove directory and subdirectories
+touch - create file

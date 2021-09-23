@@ -1,0 +1,14 @@
+APIs - what are they even?
+
+API stands for Application Programming Interface
+
+Think of an API as a waiter. The waiter takes your order and tells the kitchen (system) what you want to eat.
+The kitchen then makes the food, and alerts the waiter that the food is done.
+The waiter then brings your food to the table.
+
+Modern API
+Adheres to standards (REST) Reprentational State Transfer
+
+RESTful API - Base URL, API Key (authorization), Parameters, Resource
+
+The response usually comes back as JSON (JavaScript Object Notation) or XML.
